@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="factory-01-02" />
+        <module name="factory-01-00" />
+        <module name="facade-10-02" />
+        <module name="facade-10-01" />
+        <module name="facade-10-00" />
+        <module name="strategy-20-05" />
+        <module name="strategy-20-04" />
+        <module name="strategy-20-03" />
+        <module name="strategy-20-02" />
+        <module name="strategy-20-01" />
+      </profile>
+      <profile name="Annotation profile for factory-01-01" enabled="true">
+        <sourceOutputDir name="../factory-01-00/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../factory-01-00/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="factory-01-01" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

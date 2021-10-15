@@ -1,0 +1,8 @@
+
+j	java:S100	"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ëìÌ›8ÁÇ™ñ¾/
+W
+java:S1481
+"5Remove this unused "zjCouponDiscount" local variable.(å·ÿ–úÿÿÿÿ8§ûšñ¾/
+f
+java:S1854
+"DRemove this useless assignment to local variable "zjCouponDiscount".(å·ÿ–úÿÿÿÿ8§ûšñ¾/
