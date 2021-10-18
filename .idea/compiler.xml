@@ -8,6 +8,9 @@
         <outputRelativeToContentRoot value="true" />
         <module name="factory-01-02" />
         <module name="factory-01-00" />
+        <module name="build-03-02" />
+        <module name="build-03-01" />
+        <module name="build-03-00" />
         <module name="facade-10-02" />
         <module name="facade-10-01" />
         <module name="facade-10-00" />
@@ -17,7 +20,7 @@
         <module name="strategy-20-02" />
         <module name="strategy-20-01" />
       </profile>
-      <profile name="Annotation profile for factory-01-01" enabled="true">
+      <profile name="Annotation profile for design-pattern" enabled="true">
         <sourceOutputDir name="../factory-01-00/target/generated-sources/annotations" />
         <sourceTestOutputDir name="../factory-01-00/target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />

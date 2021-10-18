@@ -20,6 +20,9 @@
         <module>facade-10-00</module>
         <module>facade-10-01</module>
         <module>facade-10-02</module>
+        <module>build-03-00</module>
+        <module>build-03-01</module>
+        <module>build-03-02</module>
     </modules>
 
     <dependencies>
