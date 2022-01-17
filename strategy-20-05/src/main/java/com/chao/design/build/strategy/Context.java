@@ -23,8 +23,9 @@ public class Context<T> {
             ICouponDiscount nygCouponDiscount = new NYGCouponDiscount();
             iCouponDiscount = nygCouponDiscount;
         } else if ("直减".equals(type)) {
-            ICouponDiscount zjCouponDiscount = new ZJCouponDiscount();
-            iCouponDiscount = zjCouponDiscount;
+            iCouponDiscount = (ICouponDiscount<T>) new ZJCouponDiscount();
+//            ICouponDiscount zjCouponDiscount = new ZJCouponDiscount();
+//            iCouponDiscount = zjCouponDiscount;
         } else if ("折扣".equals(type)) {
             ICouponDiscount zkCouponDiscount = new ZKCouponDiscount();
             iCouponDiscount = zkCouponDiscount;
